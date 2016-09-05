@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "ClassicRoundW00-Medium";
+  src: url("http://db.onlinewebfonts.com/t/2fd1f841cc5706765fbb233d17bab6cb.eot");
+  src: url("http://db.onlinewebfonts.com/t/2fd1f841cc5706765fbb233d17bab6cb.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/2fd1f841cc5706765fbb233d17bab6cb.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/2fd1f841cc5706765fbb233d17bab6cb.woff") format("woff"), url("http://db.onlinewebfonts.com/t/2fd1f841cc5706765fbb233d17bab6cb.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/2fd1f841cc5706765fbb233d17bab6cb.svg#ClassicRoundW00-Medium") format("svg");
+}
+@font-face {
+  font-family: "OFL Sorts Mill Goudy Italic TT";
+  src: url("../font/OFLGoudyStMTT-Italic.eot?") format("eot"), url("../font/OFLGoudyStMTT-Italic.woff") format("woff"), url("../font/OFLGoudyStMTT-Italic.ttf") format("truetype"), url("../font/OFLGoudyStMTT-Italic.svg#OFLGoudyStMTT-Italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: url("../img/bg.png") repeat;
+}
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+header {
+  text-align: center;
+}
+header .logo {
+  margin-top: 50px;
+}
+nav {
+  text-align: center;
+  margin-top: 32px;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li::after {
+  content: "•";
+  padding: 0 13px;
+  color: #c5c5c5;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.99);
+}
+nav ul li:last-child::after {
+  display: none;
+}
+nav ul:after,
+nav ul:before {
+  content: "";
+  background: url("../img/2line.png") repeat-x;
+  height: 6px;
+  position: absolute;
+  width: 201px;
+  margin-top: 7px;
+}
+nav ul:before {
+  margin-left: -224px;
+}
+nav ul:after {
+  margin-left: 24px;
+}
+nav ul a {
+  font-family: 'ClassicRoundW00-Medium';
+  text-transform: uppercase;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.99);
+  color: #606060;
+}
+.about {
+  color: #848484;
+  font-family: "OFL Sorts Mill Goudy Italic TT";
+  font-size: 25px;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.99);
+  text-align: center;
+  margin-top: 31px;
+}
+.right_block {
+  width: 265px;
+  float: right;
+}
+.right_block .block {
+  margin-bottom: 21px;
+}
+.right_block .block .title {
+  font-family: "ClassicRoundW00-Medium";
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.99);
+  font-size: 18px;
+  color: #606060;
+  text-align: center;
+}
+.right_block .block .title:after,
+.right_block .block .title:before {
+  content: "";
+  background: url("../img/2line.png") repeat-x;
+  height: 6px;
+  position: absolute;
+  width: 78px;
+  margin-top: 7px;
+}
+.right_block .block .title:before {
+  margin-left: -98px;
+}
+.right_block .block .title:after {
+  margin-left: 21px;
+}
+.right_block .block .title.popular {
+  margin-bottom: 19px;
+}
+.right_block .block .title.popular:after,
+.right_block .block .title.popular:before {
+  width: 60px;
+}
+.right_block .block .title.popular:before {
+  margin-left: -80px;
+}
+.right_block .block .title.categorie:after,
+.right_block .block .title.categorie:before {
+  width: 72px;
+}
+.right_block .block .title.categorie:before {
+  margin-left: -92px;
+}
+.right_block .block .categories {
+  min-height: 90px;
+  margin-top: 17px;
+}
+.right_block .block .categories li {
+  font-family: Arial;
+  color: #848484;
+  font-size: 12px;
+  width: 122px;
+  padding-left: 10px;
+  float: left;
+  padding-bottom: 10px;
+  background: url("../img/cat_dot.png") no-repeat 0px 6px;
+}
+.right_block .block .desc {
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 20px;
+  color: #848484;
+  margin-top: 5px;
+}
+.right_block .block .desc p {
+  padding-bottom: 8px;
+}
+.right_block .block .item {
+  min-height: 72px;
+}
+.right_block .block .item .img {
+  float: left;
+  width: 62px;
+  height: 62px;
+  background: url("../img/item_bg.png") repeat-x;
+  text-align: center;
+}
+.right_block .block .item .img img {
+  width: 50px;
+  height: 50px;
+  margin-top: 6px;
+}
+.right_block .block .item .desc {
+  margin-left: 72px;
+  font-size: 11px;
+  color: #a8a8a8;
+  font-family: Arial;
+}
+.right_block .block .item .desc a {
+  font-size: 15px;
+  color: #5f5f5f;
+  font-family: "ClassicRoundW00-Medium";
+}
